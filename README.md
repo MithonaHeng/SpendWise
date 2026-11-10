@@ -106,7 +106,7 @@ One of SpendWise's key features is simplifying transaction recording.
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/spendwise.git
+git clone https://github.com/MithonaHeng/SpendWise.git
 ```
 
 **2. Navigate to the project**
