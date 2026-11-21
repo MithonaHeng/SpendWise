@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../features/auth/presentation/screen/splash_screen.dart';
+import '../features/auth/presentation/screens/splash_screen.dart';
 
 class SpendWiseApp extends StatelessWidget {
   const SpendWiseApp({super.key});

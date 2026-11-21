@@ -40,14 +40,18 @@ dev_dependencies:
     sdk: flutter
 
   flutter_launcher_icons: "^0.14.4"
+  flutter_native_splash: ^2.4.4
 
+flutter_native_splash:
+  color: "#F8F9FA"
+  image: assets/icons/spendwise_icon.png
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icon/spendwise.png"
+  image_path: "assets/icons/spendwise_icon.png"
 
   adaptive_icon_background: "#FFFFFF"
-  adaptive_icon_foreground: "assets/icon/spendwise.png"
+  adaptive_icon_foreground: "assets/icons/spendwise_app.png"
 
   remove_alpha_ios: true
 
@@ -64,7 +68,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/icon/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
