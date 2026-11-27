@@ -23,7 +23,7 @@ class DashboardScreen extends ConsumerWidget {
               width: 40,
               height: 40,
               decoration: BoxDecoration(
-                color: colors.primaryContainer,
+                color: colors.secondaryContainer,
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Icon(
@@ -63,19 +63,28 @@ class DashboardScreen extends ConsumerWidget {
         ],
       ),
       body: SingleChildScrollView(
-        child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 18),
               Text(
                 'ស្វាគមន៍មកកាន់ផ្ទាំងគ្រប់គ្រង!',
                 style: theme.textTheme.headlineMedium,
               ),
-              const SizedBox(height: 12),
-              Text(
-                'នេះគឺជាទំព័រដើមរបស់កម្មវិធី SpendWise។',
-                style: theme.textTheme.bodyMedium,
+              const SizedBox(height: 20),
+
+              ElevatedButton(
+                onPressed: () => {},
+                child: const Text('Add Expense'),
+              ),
+
+              const SizedBox(height: 20),
+
+              ElevatedButton(
+                onPressed: () => {},
+                child: const Text('Add Income'),
               ),
             ],
           ),

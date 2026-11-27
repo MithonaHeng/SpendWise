@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
     await Future.delayed(const Duration(seconds: 2));
 
     if (!mounted) return;
-    context.goNamed('dashboard');
+    context.go('/dashboard');
   }
 
   @override
